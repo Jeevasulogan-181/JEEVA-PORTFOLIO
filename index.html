@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de622727e8.js" crossorigin="anonymous"></script>
+    <title>MY PORTFOLIO</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="JEEVA.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI / UX DEVELOPER </p>
+                <h1>Hi, I'm<span> JEEVA</span> From Malaysia</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------------ABOUT-------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="User.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p align="justify">"I'm Jeeva, UI/UX Developer with 1 year of experience at Cre8IOT, building responsive and user-focused web interfaces. Skilled in React, Svelte, and Next.js, with a strong foundation in translating designs into scalable applications. Experienced in Figma and Adobe Photoshop for creating clean, intuitive UI/UX, and deploying production-ready apps using Vercel. Currently pursuing a Bachelor of Information Technology (2nd Year), continuously improving in modern frontend development and design."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>HTML5, CSS, JavaScript, ReactJS, NextJS</li>
+                            <li><span>Designing</span><br>figma, Adobe Photoshop</li>
+                            <li><span>Database Management</span><br>PostgreSQL (Supabase, Neon), SQL</li>
+                            <li><span>Data Visualization</span><br>Power BI</li>
+                            <li><span>Version Control</span><br> Git, GitHub</li>
+                            <li><span>Other Skills</span><br>Debugging, Performance Optimization (CI/CD), API integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SPM</span><br>SMK TOK PERDANA</li>
+                            <li><span>Diploma In Management</span><br>SPECTRUM INTERNATIONAL COLLEGE OF TECHNOLOGY</li>
+                            <li><span>Fullstack Development</span><br>GREENS TECHNOLOGY</li>
+                            <li><span>Bachelor Of Information Technology</span><br>OPEN UNIVERSITY MALAYSIA</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------------PROJECT-------------------------------------------------- -->
+
+    <div id="projects">
+<div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="projects-list">
+
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>CRM Dashboard</h2>
+        <p>"I'm a Fullstack Developer with a passion for creating impactful web applications and data-driven solutions. My skills include HTML5, CSS, JavaScript, ReactJS, and Firebase, and I've built projects ranging from live chat apps to e-commerce websites. I'm also diving deep into Data Analytics with tools like Power BI and SQL. Explore my work and see how I turn ideas into reality!"</p>
+        <a href="index.html">Learn More</a>
+       </div>
+
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>E-Commerce</h2>
+        <p>"I designed and developed a fully responsive e-commerce website using HTML, CSS, and JavaScript. The site features an intuitive user interface, product catalog, shopping cart functionality, and secure checkout options. I implemented interactive elements like product filtering and smooth navigation, ensuring a seamless shopping experience across all devices. The design is clean, modern, and user-centric, aimed at enhancing customer engagement and conversion rates."</p>
+        <a href="https://www.jeevaaurean.site/">Learn More</a>
+       </div>
+
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Sales OPS</h2>
+        <p>"I developed a comprehensive Sales Operations (Sales Ops) Dashboard using Power BI, designed to visualize key metrics such as sales performance, revenue trends, pipeline status, and conversion rates. The dashboard delivers real-time insights, enabling stakeholders to monitor sales efficiency, track targets, and identify growth opportunities. It includes interactive visuals, filters, and drill-down features, providing a user-friendly interface for quick and informed decision-making. The design focuses on presenting clear, actionable insights to enhance sales strategy, improve forecasting accuracy, and drive overall business performance."</p>
+        <a href="https://www.jeevaaurean.site/">Learn More</a>
+       </div>
+
+    </div>
+</div>
+</div>
+
+<!-- ----------------------------------------------CONTACT------------------------------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <div class="social-icons">
+                    <a href="mailto:jeevasulogan181@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://wa.me/+601110935551" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/_.jeevas._/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="tel:+601110935551"><i class="fa-solid fa-square-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/jeeva10/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+
+                <a href="JEEVA SULOGAN - RESUME.pdf" download="JEEVA SULOGAN - RESUME.pdf" class="btn">Download CV</a>
+            
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+    <!-- ----------------------------------------------JAVA SCRIPT-------------------------------------------------- -->
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+
+
+</script>
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+
+</script>
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwNF8cZHHVze19ZJBSbvL4ZK9yZjeV8sb_YdaUfj2sMV2NdtgeT-1zozOeEO-6Ue6-bVw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    const submitBtn = form.querySelector('button[type="submit"]')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      submitBtn.disabled = true
+      submitBtn.textContent = "Sending..."
+      msg.style.color = ""
+      msg.innerHTML = ""
+
+      fetch(scriptURL, { method: 'POST', body: new FormData(form), mode: 'no-cors' })
+        .then(response => {
+            msg.style.color = "#61b752"
+            msg.innerHTML = "✅ Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => {
+            msg.style.color = "#e74c3c"
+            msg.innerHTML = "❌ Failed to send. Please try again."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+        })
+        .finally(() => {
+            submitBtn.disabled = false
+            submitBtn.textContent = "Submit"
+        })
+    })
+  </script>
+
+</body>
+</html>
